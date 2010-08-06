@@ -1,0 +1,9 @@
+category: Perl
+requires: perl perl-Class-Inspector
+sdesc: "Perl per-module data locator module"
+ldesc: "The intent of File::ShareDir is to provide a companion to 
+Class::Inspector and File::HomeDir. Quite often you want or need your 
+Perl module (CPAN or otherwise) to have access to a large amount of 
+read-only data that is stored on the file-system at run-time. Perl 
+provides a little-known method for doing this, but almost nobody is 
+aware that it exists."
