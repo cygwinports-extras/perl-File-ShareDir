@@ -1,8 +1,8 @@
-CPAN_AUTHOR=adamk
+CPAN_AUTHOR=rehsack
 inherit perl
 
 NAME="perl-File-ShareDir"
-VERSION=1.03
+VERSION=1.102
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl per-module data locator module"
@@ -11,3 +11,5 @@ Class::Inspector and File::HomeDir. Quite often you want or need your Perl
 module (CPAN or otherwise) to have access to a large amount of read-only data
 that is stored on the file-system at run-time. Perl provides a little-known
 method for doing this, but almost nobody is aware that it exists."
+
+ARCH=noarch
